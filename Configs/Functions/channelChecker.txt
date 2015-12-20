@@ -1,3 +1,0 @@
-Ostatnie skanowanie twojego kanału odbyło się: {last_scan}
-Twój kanał wygasa: {expire_date}
-Kanały przedłużane są o: {time_extension}

@@ -310,7 +310,8 @@ if($start_options['startmode'] == "commands") {
         $instance_list[] = Array('functions' => Array(), 'weight' => 0);
       }
     }elseif($general_config['multibot_config']['instances'] > 0) {
-      for($i = 1; $i <= $config['general_config']['instances']; $i++)  {
+//       for($i = 1; $i <= $config['general_config']['instances']; $i++)  {
+        for($i = 1; $i <= $general_config['multibot_config']['instances']; $i++)  {
         $instance_list[] = Array(
         	'protect' => false, 
         	'functions' => Array(), 

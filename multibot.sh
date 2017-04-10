@@ -1,10 +1,10 @@
 if [ $1 = 'stop' ]
     then
-      NAZWA=`screen -list | grep 'ExusMultibotInstance' | cut -d . -f1`
-      kill -3 $NAZWA
+      NAME=`screen -list | grep 'ExusMultibotInstance' | cut -d . -f1`
+      kill -3 $NAME
 
       NAZWA=`screen -list | grep 'ExusMultibot' | cut -d . -f1`
-      kill -3 $NAZWA
+      kill -3 $NAME
     fi
 
 if [ $1 = 'start' ]

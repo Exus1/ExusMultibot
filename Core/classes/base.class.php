@@ -436,12 +436,12 @@ class baseObject {
         }
         closedir($dh);
       }else {
-        $this->addError($this->lang['bas']['command_folder_open_error']);
+        $this->addError($this->lang['base']['command_folder_open_error']);
         $this->commandList = false;
         return false;
       }
     }else {
-      $this->addError($this->lang['bas']['command_folder_open_error']);
+      $this->addError($this->lang['base']['command_folder_open_error']);
       $this->commandList = false;
       return false;
     }
